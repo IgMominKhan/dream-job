@@ -1,0 +1,199 @@
+[
+    {
+        "title": "Digital Marketing Specialist",
+        "location": "Paris, France",
+        "jobType":"Full Time",
+        "typeOfEmployment":"Hybrid",
+        "description": "We are seeking a highly motivated digital marketing specialist to support the creation and execution of marketing campaigns. The ideal candidate will have experience with marketing automation, SEO, and Google Analytics.",
+        "salary": "70K",
+
+        "requirements": [
+            "Bachelor's degree in marketing or related field",
+            "2+ years of experience in digital marketing",
+            "Experience with marketing automation platforms"
+        ],
+        "benefits": [
+            "Health insurance",
+            "401(k) plan",
+            "Paid time off"
+        ],
+        "company": "ABC Company",
+        "logo": "https://source.unsplash.com/random/?brand%20"
+    },
+    {
+        "title": "Content Marketing Manager",
+        "location": "Lyon, France",
+        "jobType":"Part Time",
+        "typeOfEmployment":"Remote",
+        "description": "We are looking for an experienced content marketing manager to develop and implement a content strategy that aligns with our business goals. The ideal candidate will have a strong understanding of SEO and content analytics.",
+        "salary": "Competitive",
+        "logo": "https://source.unsplash.com/random/?brand%20",
+        "requirements": [
+            "Bachelor's degree in marketing or related field",
+            "5+ years of experience in content marketing",
+            "Strong writing and editing skills"
+        ],
+        "benefits": [
+            "Health insurance",
+            "Paid time off",
+            "Flexible schedule"
+        ],
+        "company": "XYZ Company"
+    },
+    {
+        "title": "Social Media Manager", "jobType":"Full Time",
+        "typeOfEmployment":"On Site",
+        "logo": "https://source.unsplash.com/random/?brand%20",
+        "location": "Nice, France",
+        "description": "We are seeking a talented social media manager to develop and implement social media campaigns that increase brand awareness and engagement. The ideal candidate will have experience with social media advertising and analytics.",
+        "salary": "57K",
+        "requirements": [
+            "Bachelor's degree in marketing or related field",
+            "3+ years of experience in social media management",
+            "Experience with social media advertising"
+        ],
+        "benefits": [
+            "Health insurance",
+            "401(k) plan",
+            "Flexible schedule"
+        ],
+        "company": "123 Company"
+    },
+    {
+        "title": "Email Marketing Specialist",
+        "jobType":"Full Time",
+        "typeOfEmployment":"On Site",
+        "location": "Toulouse, France",
+        "logo": "https://source.unsplash.com/random/?brand%20",
+        "description": "We are looking for an email marketing specialist to create and implement email campaigns that drive customer engagement and revenue. The ideal candidate will have experience with email marketing platforms and analytics.",
+        "salary": "Competitive",
+        "requirements": [
+            "Bachelor's degree in marketing or related field",
+            "2+ years of experience in email marketing",
+            "Experience with email marketing platforms"
+        ],
+        "benefits": [
+            "Health insurance",
+            "Paid time off",
+            "401(k) plan"
+        ],
+        "company": "DEF Company"
+    },
+    {
+        "title": "SEO Specialist",
+        "logo": "https://source.unsplash.com/random/?brand%20",
+        "location": "Marseille, France",
+        "jobType":"Full Time",
+        "typeOfEmployment":"Hybrid",
+        "description": "We are seeking an experienced SEO specialist to optimize our website for search engines and improve our search rankings. The ideal candidate will have a strong understanding of SEO best practices.",
+        "salary": "76K",
+        "requirements": [
+            "Bachelor's degree in marketing or related field",
+            "3+ years of experience in SEO",
+            "Experience with SEO tools and analytics"
+        ],
+        "benefits": [
+            "Health insurance",
+            "Flexible schedule",
+            "401(k) plan"
+        ],
+        "company": "GHI Company"
+    },
+    {
+        "title": "PPC Manager", "jobType":"Part Time",
+        "typeOfEmployment":"Remote",
+        "location": "Bordeaux, France",
+        "description": "We are looking for a PPC manager to create and manage pay-per-click campaigns that drive qualified traffic to our website. The ideal candidate will have experience with Google Ads and other PPC platforms.",
+        "salary": "89K",
+        "logo": "https://source.unsplash.com/random/?brand%20",
+        "requirements": [
+            "Bachelor's degree in marketing or related field",
+            "3+ years of experience in PPC management",
+            "Experience with Google Ads and other PPC platforms"
+        ],
+        "benefits": [
+            "Health insurance",
+            "401(k) plan",
+            "Paid time off"
+        ],
+        "company": "JKL Company"
+    },
+    {
+        "title": "Marketing Coordinator",
+        "logo": "https://source.unsplash.com/random/?brand%20",
+        "location": "Strasbourg, France",
+        "description": "We are seeking a marketing coordinator to support the creation and execution of marketing campaigns. The ideal candidate will have a strong attention to detail and excellent organizational skills.",
+        "salary": "69k", "jobType":"Contract",
+        "typeOfEmployment":"Hybrid",
+        "requirements": [
+            "Bachelor's degree in marketing or related field",
+            "1+ years of experience in marketing",
+            "Strong organizational and communication skills"
+        ],
+        "benefits": [
+            "Health insurance",
+            "Paid time off",
+            "401(k) plan"
+        ],
+        "company": "MNO Company"
+    },
+    {
+        "title": "Product Marketing Manager",
+        "location": "Nantes, France",
+        "logo": "https://source.unsplash.com/random/?brand%20",
+        "description": "We are looking for a product marketing manager to develop and execute marketing strategies for our products. The ideal candidate will have experience with product launches and go-to-market plans.",
+        "salary": "68k", "jobType":"Part Time",
+        "typeOfEmployment":"On Site",
+        "requirements": [
+            "Bachelor's degree in marketing or related field",
+            "5+ years of experience in product marketing",
+            "Experience with product launches and go-to-market plans"
+        ],
+        "benefits": [
+            "Health insurance",
+            "401(k) plan",
+            "Flexible schedule"
+        ],
+        "company": "PQR Company"
+    },
+    {
+        "title": "Marketing Analyst",
+        "location": "Lille, France",
+        "logo": "https://source.unsplash.com/random/?brand%20",
+        "description": "We are seeking a marketing analyst to analyze and report on the performance of our marketing campaigns. The ideal candidate will have experience with data analysis and visualization tools.",
+        "salary": "Competitive",
+        "jobType":"Part Time",
+        "typeOfEmployment":"Remote",
+        "requirements": [
+            "Bachelor's degree in marketing or related field",
+            "2+ years of experience in marketing analytics",
+            "Experience with data analysis and visualization tools"
+        ],
+        "benefits": [
+            "Health insurance",
+            "Paid time off",
+            "401(k) plan"
+        ],
+        "company": "STU Company"
+    },
+    {
+        "title": "Marketing Manager",
+        "logo": "https://source.unsplash.com/random/?brand%20",
+        "location": "Rennes, France",
+        "description": "We are looking for a marketing manager to lead our marketing team and develop and execute marketing strategies that drive business goals. The ideal candidate will have experience managing a team and a strong understanding of marketing best practices.",
+        "salary": "65K",
+        "jobType":"Full Time",
+        "typeOfEmployment":"Hybrid",
+        "requirements": [
+            "Bachelor's degree in marketing or related field",
+            "7+ years of experience in marketing",
+            "Experience managing a team"
+        ],
+        "benefits": [
+            "Health insurance",
+            "401(k) plan",
+            "Flexible schedule"
+        ],
+        "company": "VWX Company"
+    }
+]
