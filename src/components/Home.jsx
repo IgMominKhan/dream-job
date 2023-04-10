@@ -85,7 +85,7 @@ const Home = () => {
                     <div className="grid md:grid-cols-2 gap-6 my-12">
 
                         {/* jobs list here */}
-                        {jobs.slice(0, showAll ? jobs.length : 4).map(job => <FeatureJob key={job.id} job={job} />)}
+                        {jobs.slice(0, showAll ? jobs.length : 4).map(job => <FeatureJob key={job._id} job={job} />)}
 
                     </div>
                     <button onClick={()=> setShowAll(prevState=> !prevState)} className='gradient-btn'>{showAll ? 'See Less Jobs': "See All Jobs"}</button>

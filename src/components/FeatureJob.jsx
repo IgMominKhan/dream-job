@@ -19,7 +19,7 @@ export default function FeatureJob({ job }) {
                 <span><img className='inline' src={locationIcon} /> {location}</span><span> <img className='inline' src={dollar} /> Salary: {salary}</span>
             </div>
 
-            <Link to={`/${_id}`} className='inline-block gradient-btn !py-3 !px-5'>View Details</Link>
+            <Link to={`jobs/${_id}`} className='inline-block gradient-btn !py-3 !px-5'>View Details</Link>
 
         </div>
     )
