@@ -1,15 +1,18 @@
+import { useState, createContext } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer.jsx'
-import { Outlet } from 'react-router-dom'
-import './App.css'
+import { Outlet, useLoaderData } from 'react-router-dom'
+
+// export const JobContext = createContext();
 
 function App() {
-
-  return (
+  const fetchData = useLoaderData();
+  const [jobs, setJobs] = useState(fetchData);
+    return (
     <div className="App">
       <Header />
-      <Outlet />
-      <Footer />
+         <Outlet context={{jobs, setJobs}} />
+       <Footer />
     </div>
   )
 }

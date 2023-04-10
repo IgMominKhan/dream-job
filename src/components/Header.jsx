@@ -6,9 +6,9 @@ import { Bars3BottomRightIcon,XMarkIcon } from '@heroicons/react/24/outline'
 export default function Header() {
     const [isOpen, setIsOpen] = useState();
     return (
-        <header className="bg-gradient-to-r from-accent/5 to-primary/5">
+        <header className="bg-gradient-to-r from-accent/20 to-primary/20">
 
-            <div className="mx-auto w-11/12  px-4 py-8 relative">
+            <div className="container py-8 relative">
                 <nav className={`flex items-center justify-between`}>
 
                     {/* brand name / logo */}
@@ -21,7 +21,7 @@ export default function Header() {
 
                     {/* navigation links */}
 
-                    <ul className={`text-center text-xl text-dark03 flex gap-4 lg:gap-8 flex-col lg:flex-row lg:flex fixed lg:static lg:w-[auto] ${isOpen ? 'bg-slate-700 rounded-lg text-white font-bold p-8 right-auto top-32 w-[calc(100vw-12%)] p-8' : 'hidden w-auto -right-full'}`}>
+                    <ul className={`text-center text-xl text-dark03 flex gap-4 lg:gap-8 flex-col lg:flex-row lg:flex fixed lg:static lg:w-[auto] ${isOpen ? 'bg-slate-700 rounded-lg text-white font-bold right-auto top-32 w-[calc(100vw-12%)] p-8' : 'hidden w-auto -right-full'}`}>
                         <li>
                             <Link to='/'>Home</Link>
                         </li>
