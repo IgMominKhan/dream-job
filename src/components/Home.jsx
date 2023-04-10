@@ -88,7 +88,8 @@ const Home = () => {
                         {jobs.slice(0, showAll ? jobs.length : 4).map(job => <FeatureJob key={job.id} job={job} />)}
 
                     </div>
-                </section>
+                    <button onClick={()=> setShowAll(prevState=> !prevState)} className='gradient-btn'>{showAll ? 'See Less Jobs': "See All Jobs"}</button>
+                 </section>
             </div>
         </main>
     )
