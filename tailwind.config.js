@@ -14,7 +14,8 @@ export default {
         dark05: '#d1d1d1',
         dark06: "#e8d8d8",
         dark07: "#f4f4f4",
-        
+        accent: "#7E90FE",
+        primary: "#9873FF"
       }
     },
   },
