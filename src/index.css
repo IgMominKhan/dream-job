@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.gradient-btn {
+    background-image: linear-gradient(90deg, #7E90FE, #9873FF);
+    @apply font-extrabold text-white text-xl px-7 py-5 rounded-lg
+}
