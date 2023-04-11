@@ -23,16 +23,16 @@ export default function Header() {
 
                     <ul className={`text-center text-xl text-dark03 flex gap-4 lg:gap-8 flex-col lg:flex-row lg:flex fixed lg:static lg:w-[auto] ${isOpen ? 'bg-slate-700 rounded-lg text-white font-bold right-auto top-32 w-[calc(100vw-12%)] p-8' : 'hidden w-auto -right-full'}`}>
                         <li>
-                            <NavLink className={({ isActive }) => isActive && 'text-accent font-medium'} to='/'>Home</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'text-accent font-medium' : ""} to='/'>Home</NavLink>
                         </li>
                         <li>
-                            <NavLink className={({ isActive }) => isActive && 'text-accent font-medium'} to='statistics'>Statistics</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'text-accent font-medium':''} to='statistics'>Statistics</NavLink>
                         </li>
                         <li>
-                            <NavLink className={({ isActive }) => isActive && 'text-accent font-medium'} to='applied-jobs'>Applied Jobs</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'text-accent font-medium':''} to='applied-jobs'>Applied Jobs</NavLink>
                         </li>
                         <li>
-                            <NavLink className={({ isActive }) => isActive && 'text-accent font-medium'} to='blog'>Blog</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'text-accent font-medium':''} to='blog'>Blog</NavLink>
                         </li>
                         <li className='lg:hidden'>
                             <Link className='gradient-btn inline-block' to='#'>Start Applying</Link>

@@ -9,10 +9,11 @@ import {
     getJobsFromDatabase,
     deleteShoppingCart
 } from '../../utilities/utilities';
+import swal from "sweetalert";
 
 export default function JobDetails() {
     const { jobs } = useOutletContext();
-    console.log(jobs)
+    // console.log(jobs)
     const { paramId } = useParams();
 
     const job = jobs.find(job => job._id === paramId);
@@ -20,8 +21,14 @@ export default function JobDetails() {
 
     // handle job apply 
     const handleJobApply = (id) => {
-        
-        addToDb(id)
+        const jobs = getJobsFromDatabase();
+        const isExist = jobs.indexOf(id);
+        if (isExist > -1) {
+            swal('Oops', 'Already Added', 'warning');
+            return;
+        }
+        addToDb(id);
+        swal("Success", "Application successfully confirm", "success")
     }
 
     return (
