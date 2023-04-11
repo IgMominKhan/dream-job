@@ -8,7 +8,7 @@ import FeatureJob from './FeatureJob'
  
 const Home = () => {
 
-    const [showAll, setShowAll] = useState(true);
+    const [showAll, setShowAll] = useState(false);
 
     const {jobs,setJobs} = useOutletContext();
     

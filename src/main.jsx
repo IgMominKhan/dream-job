@@ -1,10 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import Home from './components/Home'
-import JobDetails from './components/JobDetails'
-import ErrorPage from './components/ErrorPage.jsx'
-import { RouterProvider, createBrowserRouter, } from 'react-router-dom'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import Home from './components/Home';
+import JobDetails from './components/JobDetails';
+import AppliedJobs from './components/AppliedJobs.jsx';
+import ErrorPage from './components/ErrorPage.jsx';
+import { RouterProvider, createBrowserRouter, } from 'react-router-dom';
 import './index.css'
 
 // routes
@@ -17,8 +18,13 @@ const route = createBrowserRouter([{
     path: '/',
     element: <Home />,
   },
-  { path: 'jobs/:id',
-    element:<JobDetails />
+  {
+    path: 'jobs/:paramId',
+    element: <JobDetails />
+  },
+  {
+    path: '/applied-jobs',
+    element: <AppliedJobs/>
   }]
 }])
 
