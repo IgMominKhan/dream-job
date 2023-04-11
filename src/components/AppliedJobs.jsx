@@ -61,12 +61,10 @@ const AppliedJobs = () => {
     }, []);
 
 
-    // async function getData() {
-
-    // }
-
-    console.log(savedJobs)
-
+    function filterBy(val){
+        
+    }
+ 
     return (
         <section className="container">
             <Form className='flex justify-end mt-16'>
