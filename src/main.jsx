@@ -8,6 +8,7 @@ import Statistics from './components/Statistics';
 import ErrorPage from './components/ErrorPage.jsx';
 import { RouterProvider, createBrowserRouter, } from 'react-router-dom';
 import './index.css'
+import Blog from './components/Blog';
 
 // routes
 const route = createBrowserRouter([{
@@ -29,6 +30,10 @@ const route = createBrowserRouter([{
   }, {
     path: '/statistics',
     element: <Statistics />
+  },
+  {
+    path: "/blog",
+    element: <Blog />
   }]
 }])
 

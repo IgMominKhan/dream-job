@@ -61,12 +61,16 @@ const AppliedJobs = () => {
     }, []);
 
 
-    function filterBy(val){
-        
+    function filterBy(val) {
+
     }
- 
+
     return (
         <section className="container">
+            <h1 className="font-extrabold text-[clamp(2rem,1.5rem+3vw,3rem)] text-center bg-slate-200 p-3 mt-16">
+                Applied Jobs
+            </h1>
+
             <Form className='flex justify-end mt-16'>
                 <select id="sort" className="bg-slate-300 appearance-none py-3 px-5 font-medium rounded-lg">
                     <option> Filter By <ChevronDownIcon className="w-5 h-5" /></option>
