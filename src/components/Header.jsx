@@ -42,7 +42,7 @@ export default function Header() {
                     {/* apply button hidden on small devices */}
 
                     <div className="hidden lg:block">
-                        <Link className='gradient-btn' to='#'>Start Applying</Link>
+                        <Link className='gradient-btn' to='#feature-jobs'>Start Applying</Link>
                     </div>
                 </nav>
             </div>

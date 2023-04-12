@@ -36,7 +36,7 @@ export default function PostBlog() {
                 Blog
             </h1>
 
-            {blogs.map(post => <Post post={post} />)}
+            {blogs.map((post,i) => <Post key={i} post={post}  />)}
         </section>
     )
 }

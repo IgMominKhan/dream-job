@@ -78,7 +78,7 @@ const Home = () => {
                 </section>
 
                 {/* featured jobs */}
-                <section className="py-20 text-center">
+                <section className="py-20 text-center" id="feature-jobs">
                     <h2 className="text-[clamp(2rem,1.5rem+3vw,3rem)] font-extrabold text-black">Featured Jobs</h2>
                     <p className="text-dark03 mt-4">Explore thousands of job opportunities with all the information you need. Its your future</p>
 

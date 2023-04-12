@@ -61,9 +61,9 @@ const AppliedJobs = () => {
     }, []);
 
 
-    function filterBy(val) {
+    // function filterBy(val) {
 
-    }
+    // }
 
     return (
         <section className="container">
@@ -73,7 +73,7 @@ const AppliedJobs = () => {
 
             <Form className='flex justify-end mt-16'>
                 <select id="sort" className="bg-slate-300 appearance-none py-3 px-5 font-medium rounded-lg">
-                    <option> Filter By <ChevronDownIcon className="w-5 h-5" /></option>
+                    <option> Filter By </option>
                     <option>Remote</option>
                     <option>On-Site</option>
                 </select>

@@ -5,7 +5,7 @@ export default function FeatureJob({ job }) {
     const { _id, title, logo, location, salary, jobType, typeOfEmployment, company } = job;
     return (
         <div className="border rounded-lg p-5 md:p-8 text-start flow-content-sm">
-            <img src={job.logo} />
+            <img src={logo} />
             <h4 className="text-2xl font-extrabold text-dark02 my-">{title}</h4>
             <p className="text-xl font-semibold text-dark03">{company}</p>
             <div>

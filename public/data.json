@@ -18,7 +18,7 @@
             "Paid time off"
         ],
         "company": "ABC Company",
-        "logo": "../src/assets/Logo/google.png"
+        "logo": "https://i.ibb.co/4tkGP0b/tesla.png"
     },
     {
         "_id": "c433b28c-d7ca-11ed-afa1-0242ac120002",
@@ -28,7 +28,7 @@
         "typeOfEmployment": "Remote",
         "description": "We are looking for an experienced content marketing manager to develop and implement a content strategy that aligns with our business goals. The ideal candidate will have a strong understanding of SEO and content analytics.",
         "salary": "Competitive",
-        "logo": "../src/assets/Logo/tesla.png",
+        "logo": "https://i.ibb.co/whhyLdY/netflix.png",
         "requirements": [
             "Bachelor's degree in marketing or related field",
             "5+ years of experience in content marketing",
@@ -46,7 +46,7 @@
         "title": "Social Media Manager",
         "jobType": "Full Time",
         "typeOfEmployment": "On Site",
-        "logo": "../src/assets/Logo/netflix.png",
+        "logo": "https://i.ibb.co/JdQkXF9/google.png",
         "location": "Nice, France",
         "description": "We are seeking a talented social media manager to develop and implement social media campaigns that increase brand awareness and engagement. The ideal candidate will have experience with social media advertising and analytics.",
         "salary": "57K",
@@ -68,7 +68,7 @@
         "jobType": "Full Time",
         "typeOfEmployment": "On Site",
         "location": "Toulouse, France",
-        "logo": "../src/assets/Logo/google.png",
+        "logo": "https://i.ibb.co/4tkGP0b/tesla.png",
         "description": "We are looking for an email marketing specialist to create and implement email campaigns that drive customer engagement and revenue. The ideal candidate will have experience with email marketing platforms and analytics.",
         "salary": "Competitive",
         "requirements": [
@@ -86,7 +86,7 @@
     {
         "_id": "0727e5fe-d7cb-11ed-afa1-0242ac120002",
         "title": "SEO Specialist",
-        "logo": "../src/assets/Logo/tesla.png",
+        "logo": "https://i.ibb.co/JdQkXF9/google.png",
         "location": "Marseille, France",
         "jobType": "Full Time",
         "typeOfEmployment": "Hybrid",
@@ -112,7 +112,7 @@
         "location": "Bordeaux, France",
         "description": "We are looking for a PPC manager to create and manage pay-per-click campaigns that drive qualified traffic to our website. The ideal candidate will have experience with Google Ads and other PPC platforms.",
         "salary": "89K",
-        "logo": "../src/assets/Logo/netflix.png",
+        "logo": "https://i.ibb.co/whhyLdY/netflix.png",
         "requirements": [
             "Bachelor's degree in marketing or related field",
             "3+ years of experience in PPC management",
@@ -128,7 +128,7 @@
     {
         "_id": "235a406e-d7cb-11ed-afa1-0242ac120002",
         "title": "Marketing Coordinator",
-        "logo": "../src/assets/Logo/google.png",
+        "logo": "https://i.ibb.co/JdQkXF9/google.png",
         "location": "Strasbourg, France",
         "description": "We are seeking a marketing coordinator to support the creation and execution of marketing campaigns. The ideal candidate will have a strong attention to detail and excellent organizational skills.",
         "salary": "69k",
@@ -150,7 +150,7 @@
         "_id": "2fe1a26e-d7cb-11ed-afa1-0242ac120002",
         "title": "Product Marketing Manager",
         "location": "Nantes, France",
-        "logo": "../src/assets/Logo/tesla.png",
+        "logo": "https://i.ibb.co/JdQkXF9/google.png",
         "description": "We are looking for a product marketing manager to develop and execute marketing strategies for our products. The ideal candidate will have experience with product launches and go-to-market plans.",
         "salary": "68k",
         "jobType": "Part Time",
@@ -171,7 +171,7 @@
         "_id": "43db8744-d7cb-11ed-afa1-0242ac120002",
         "title": "Marketing Analyst",
         "location": "Lille, France",
-        "logo": "../src/assets/Logo/google.png",
+        "logo": "https://i.ibb.co/whhyLdY/netflix.png",
         "description": "We are seeking a marketing analyst to analyze and report on the performance of our marketing campaigns. The ideal candidate will have experience with data analysis and visualization tools.",
         "salary": "Competitive",
         "jobType": "Part Time",
@@ -191,7 +191,7 @@
     {
         "_id": "52b5b1c2-d7cb-11ed-afa1-0242ac120002",
         "title": "Marketing Manager",
-        "logo": "../src/assets/Logo/netflix.png",
+        "logo": "https://i.ibb.co/JdQkXF9/google.png",
         "location": "Rennes, France",
         "description": "We are looking for a marketing manager to lead our marketing team and develop and execute marketing strategies that drive business goals. The ideal candidate will have experience managing a team and a strong understanding of marketing best practices.",
         "salary": "65K",
